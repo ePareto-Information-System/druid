@@ -46,8 +46,8 @@ export const HomeViewCard = React.memo(function HomeViewCard(props: HomeViewCard
       target={href && href.startsWith('/') ? '_blank' : undefined}
     >
       <Card interactive elevation={1}>
-        <H5 color="#5c5c5d">
-          <Icon color="#196532" icon={icon} />
+        <H5>
+          <Icon color="#bfccd5" icon={icon} />
           &nbsp;{title}
         </H5>
         {loading ? <p>Loading...</p> : error ? `Error: ${error.message}` : children}

@@ -27,36 +27,32 @@
     width: 100px;
     height: $header-bar-height;
     overflow: hidden;
-    img {
-      height: 3.5rem;
-      width: 3.5rem;
-      // margin-top: 4px;
-    }
-    svg {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      height: 48px;
 
-      .letter {
-        fill: $dark-gray2;
-      }
+    // svg {
+    //   position: absolute;
+    //   top: 50%;
+    //   left: 50%;
+    //   transform: translate(-50%, -50%);
+    //   height: 48px;
 
-      .swirl {
-        fill: $druid-brand2;
-      }
+    //   .letter {
+    //     fill: $dark-gray2;
+    //   }
 
-      .#{$bp-ns}-dark & {
-        .letter {
-          fill: $white;
-        }
+    //   .swirl {
+    //     fill: $druid-brand2;
+    //   }
 
-        .swirl {
-          fill: $druid-brand;
-        }
-      }
-    }
+    //   .#{$bp-ns}-dark & {
+    //     .letter {
+    //       fill: $white;
+    //     }
+
+    //     .swirl {
+    //       fill: $druid-brand;
+    //     }
+    //   }
+    // }
   }
 
   * {
@@ -70,10 +66,10 @@
   .header-entry {
     .#{$bp-ns}-icon {
       svg {
-        fill: #d1c351;
+        fill: $blue3;
 
         .#{$bp-ns}-dark & {
-          fill: #d1c351;
+          fill: $druid-brand;
         }
       }
     }

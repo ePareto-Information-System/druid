@@ -28,8 +28,8 @@
     height: $header-bar-height;
     overflow: hidden;
     img {
-      height: 3.5rem;
-      width: 3.5rem;
+      height: 3.8rem;
+      width: 3.8rem;
       // margin-top: 4px;
     }
     svg {
@@ -70,10 +70,10 @@
   .header-entry {
     .#{$bp-ns}-icon {
       svg {
-        fill: #d1c351;
+        fill: $blue3;
 
         .#{$bp-ns}-dark & {
-          fill: #d1c351;
+          fill: $druid-brand;
         }
       }
     }

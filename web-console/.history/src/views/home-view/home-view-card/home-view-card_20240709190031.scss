@@ -16,7 +16,43 @@
  * limitations under the License.
  */
 
-$navbar-padding: $pt-grid-size * 1.5;
+@import '../../../variables';
+@import '../../../blueprint-overrides/common/colors';
 
-$navbar-background-color: $white;
-$dark-navbar-background-color: #196532;
+.home-view-card {
+  .#{$bp-ns}-card {
+    height: 200px;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  p {
+    padding-left: 34px;
+  }
+
+  h5 span {
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 10px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      fill: $blue3;
+
+      .#{$bp-ns}-dark & {
+        fill: $druid-brand;
+      }
+    }
+  }
+}
+
+a.home-view-card,
+a.home-view-card:hover {
+  .#{$bp-ns}-dark & {
+    color: $gray4;
+  }
+  color: $gray2;
+}

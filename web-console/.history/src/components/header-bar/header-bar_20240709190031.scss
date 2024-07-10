@@ -27,11 +27,7 @@
     width: 100px;
     height: $header-bar-height;
     overflow: hidden;
-    img {
-      height: 3.5rem;
-      width: 3.5rem;
-      // margin-top: 4px;
-    }
+
     svg {
       position: absolute;
       top: 50%;
@@ -70,10 +66,10 @@
   .header-entry {
     .#{$bp-ns}-icon {
       svg {
-        fill: #d1c351;
+        fill: $blue3;
 
         .#{$bp-ns}-dark & {
-          fill: #d1c351;
+          fill: $druid-brand;
         }
       }
     }

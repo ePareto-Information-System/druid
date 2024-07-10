@@ -75,7 +75,7 @@ export type HeaderActiveTab =
 
 const DruidLogo = React.memo(function DruidLogo() {
   return (
-    <div className="druid-logo">
+    <div className="">
       <img src="../../../assets/logo-moh.png" />
     </div>
   );

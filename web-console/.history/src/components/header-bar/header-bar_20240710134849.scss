@@ -70,9 +70,7 @@
   .header-entry {
     .#{$bp-ns}-icon {
       svg {
-        fill: #d1c351;
-
-        .#{$bp-ns}-dark & {
+        fill: #d1c351 .#{$bp-ns}-dark & {
           fill: #d1c351;
         }
       }

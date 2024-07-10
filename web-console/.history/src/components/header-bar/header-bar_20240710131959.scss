@@ -70,10 +70,10 @@
   .header-entry {
     .#{$bp-ns}-icon {
       svg {
-        fill: #d1c351;
+        fill: $blue3;
 
         .#{$bp-ns}-dark & {
-          fill: #d1c351;
+          fill: $druid-brand;
         }
       }
     }
